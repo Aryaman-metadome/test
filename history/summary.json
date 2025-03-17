@@ -1,20 +1,42 @@
 [
   {
-    "name": "vsa-ai",
-    "url": "https://vsa-dashboard-dev.metadome.ai/index.html",
-    "icon": "https://icons.duckduckgo.com/ip3/vsa-dashboard-dev.metadome.ai.ico",
-    "slug": "vsa-ai",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1299,
-    "timeDay": 1299,
-    "timeWeek": 1299,
-    "timeMonth": 1299,
-    "timeYear": 1299,
-    "dailyMinutesDown": {}
+    "name": "Main Website",
+    "url": "https://yourwebsite.com",
+    "icon": "https://icons.duckduckgo.com/ip3/yourwebsite.com.ico",
+    "slug": "main-website",
+    "status": "down",
+    "uptime": "7.13%",
+    "uptimeDay": "7.13%",
+    "uptimeWeek": "7.13%",
+    "uptimeMonth": "7.13%",
+    "uptimeYear": "7.13%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-03-17": 0
+    }
+  },
+  {
+    "name": "API Server",
+    "url": "https://api.yourwebsite.com",
+    "icon": "https://icons.duckduckgo.com/ip3/api.yourwebsite.com.ico",
+    "slug": "api-server",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-03-17": 0
+    }
   }
 ]
