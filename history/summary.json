@@ -1,8 +1,8 @@
 [
   {
     "name": "vsa-ai",
-    "url": "vsa-dashboard-dev.metadome.ai/index.html",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "url": "https://vsa-dashboard-dev.metadome.ai/index.html",
+    "icon": "https://icons.duckduckgo.com/ip3/vsa-dashboard-dev.metadome.ai.ico",
     "slug": "vsa-ai",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1620,
-    "timeDay": 1620,
-    "timeWeek": 1620,
-    "timeMonth": 1620,
-    "timeYear": 1620,
+    "time": 1299,
+    "timeDay": 1299,
+    "timeWeek": 1299,
+    "timeMonth": 1299,
+    "timeYear": 1299,
     "dailyMinutesDown": {}
   }
 ]
