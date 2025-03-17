@@ -1,5 +1,47 @@
+# Upptime configuration file
 owner: Aryaman-metadome
 repo: vsa-ai
+# Used to display the name of your status page
+siteName: "My Status Page"
+# The branch where uptime commits are made
+branch: master
+
+# List of URLs to monitor
 sites:
-  - name: vsa-ai
-    url: https://vsa-dashboard-dev.metadome.ai/index.html
+  - name: Main Website
+    url: https://yourwebsite.com
+    method: GET
+    maxResponseTime: 3000  # Maximum response time in ms before marking as slow
+    expectedStatusCodes: [200, 201, 202] # List of expected status codes
+
+  - name: API Server
+    url: https://api.yourwebsite.com
+    method: GET
+    maxResponseTime: 5000
+    expectedStatusCodes: [200]
+
+# Interval settings (in minutes)
+uptimeCheckInterval: 5  # Frequency of checks
+commitMessages:
+  live: ":green_circle: Site is up"
+  outage: ":red_circle: Site is down"
+  degraded: ":yellow_circle: Response time is high"
+
+# Notifications
+notifications:
+  - type: discord
+    webhookUrl: https://discord.com/api/webhooks/your-webhook-id
+  - type: email
+    to: your-email@example.com
+    sendFrom: noreply@yourdomain.com
+  - type: slack
+    webhookUrl: https://hooks.slack.com/services/your-webhook-id
+
+# Summary settings
+status:
+  showResponseTime: true
+  days: 30
+
+# CI/CD settings
+assignees:
+  - your-github-username
